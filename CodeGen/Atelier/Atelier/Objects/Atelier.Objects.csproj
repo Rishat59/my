@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2F5BE1FE-3ABD-414A-A09D-B199E50CC659}</ProjectGuid>
+    <ProjectGuid>{550128F7-A7B7-4623-9DCB-E964BC7DA06B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IIS.Atelier</RootNamespace>
@@ -125,25 +125,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Заказ.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Цех.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="СостояниеЗаказа.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Личность.cs">
+    <Compile Include="Клиент.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Сотрудник.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Клиент.cs">
+    <Compile Include="Одежда.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Одежда.cs">
+    <Compile Include="Заказ.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Личность.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="СостояниеЗаказа.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Цех.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -29,7 +29,7 @@
                 </div>
                 <div class="page-header-caption">
                     <a href="/Default.aspx">
-                        <asp:Localize ID="PageHeaderCaption" Text="<%$ Resources: Resource, Master_Page_Header_Title %>" runat="server">Название проекта</asp:Localize>
+                        <asp:Localize ID="PageHeaderCaption" Text="<%$ Resources: Resource, Master_Page_Header_Title %>" runat="server">Ателье</asp:Localize>
                     </a>
                 </div>
                 <div class="page-header-userbar">

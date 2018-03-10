@@ -38,11 +38,23 @@ namespace IIS.Atelier
             "ДатаОплаты as \'Дата оплаты\'",
             "ДатаВыдачиТовара as \'Дата выдачи товара\'",
             "Клиент as \'Клиент\'",
+            "Клиент.Мастер.Фамилия",
+            "Клиент.Мастер.Имя",
+            "Клиент.Мастер.Отчество",
             "Клиент.Мастер.ФИО as \'Мастер\'",
-            "Одежда as \'Одежда\'"})]
+            "Одежда as \'Одежда\'"}, Hidden=new string[] {
+            "Клиент.Мастер.Фамилия",
+            "Клиент.Мастер.Имя",
+            "Клиент.Мастер.Отчество"})]
     [View("ЗаказL", new string[] {
+            "Клиент.Фамилия",
+            "Клиент.Имя",
+            "Клиент.Отчество",
             "Клиент.ФИО as \'Клиент\'",
             "Клиент.Телефон as \'Телефон\'",
+            "Клиент.Мастер.Фамилия",
+            "Клиент.Мастер.Имя",
+            "Клиент.Мастер.Отчество",
             "Клиент.Мастер.ФИО as \'Мастер\'",
             "Размеры as \'Размеры\'",
             "Стоимость as \'Стоимость\'",
@@ -54,7 +66,13 @@ namespace IIS.Atelier
             "Одежда.Фасон as \'Фасон\'",
             "Одежда.Покрой as \'Покрой\'",
             "Одежда.Стиль as \'Стиль\'",
-            "Одежда.Вид as \'Вид\'"})]
+            "Одежда.Вид as \'Вид\'"}, Hidden=new string[] {
+            "Клиент.Фамилия",
+            "Клиент.Имя",
+            "Клиент.Отчество",
+            "Клиент.Мастер.Фамилия",
+            "Клиент.Мастер.Имя",
+            "Клиент.Мастер.Отчество"})]
     public class Заказ : ICSSoft.STORMNET.DataObject
     {
         
@@ -66,9 +84,9 @@ namespace IIS.Atelier
         
         private System.DateTime fДатаОформленияЗаказа;
         
-        private System.DateTime fДатаОплаты;
+        private ICSSoft.STORMNET.UserDataTypes.NullableDateTime fДатаОплаты;
         
-        private System.DateTime fДатаВыдачиТовара;
+        private ICSSoft.STORMNET.UserDataTypes.NullableDateTime fДатаВыдачиТовара;
         
         private IIS.Atelier.Клиент fКлиент;
         
@@ -210,14 +228,14 @@ namespace IIS.Atelier
         // *** Start programmer edit section *** (Заказ.ДатаОплаты CustomAttributes)
 
         // *** End programmer edit section *** (Заказ.ДатаОплаты CustomAttributes)
-        public virtual System.DateTime ДатаОплаты
+        public virtual ICSSoft.STORMNET.UserDataTypes.NullableDateTime ДатаОплаты
         {
             get
             {
                 // *** Start programmer edit section *** (Заказ.ДатаОплаты Get start)
 
                 // *** End programmer edit section *** (Заказ.ДатаОплаты Get start)
-                System.DateTime result = this.fДатаОплаты;
+                ICSSoft.STORMNET.UserDataTypes.NullableDateTime result = this.fДатаОплаты;
                 // *** Start programmer edit section *** (Заказ.ДатаОплаты Get end)
 
                 // *** End programmer edit section *** (Заказ.ДатаОплаты Get end)
@@ -241,14 +259,14 @@ namespace IIS.Atelier
         // *** Start programmer edit section *** (Заказ.ДатаВыдачиТовара CustomAttributes)
 
         // *** End programmer edit section *** (Заказ.ДатаВыдачиТовара CustomAttributes)
-        public virtual System.DateTime ДатаВыдачиТовара
+        public virtual ICSSoft.STORMNET.UserDataTypes.NullableDateTime ДатаВыдачиТовара
         {
             get
             {
                 // *** Start programmer edit section *** (Заказ.ДатаВыдачиТовара Get start)
 
                 // *** End programmer edit section *** (Заказ.ДатаВыдачиТовара Get start)
-                System.DateTime result = this.fДатаВыдачиТовара;
+                ICSSoft.STORMNET.UserDataTypes.NullableDateTime result = this.fДатаВыдачиТовара;
                 // *** Start programmer edit section *** (Заказ.ДатаВыдачиТовара Get end)
 
                 // *** End programmer edit section *** (Заказ.ДатаВыдачиТовара Get end)

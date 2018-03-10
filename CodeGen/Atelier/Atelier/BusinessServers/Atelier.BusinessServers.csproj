@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF05B667-6104-4A94-AF43-182328F2A9DF}</ProjectGuid>
+    <ProjectGuid>{5CAE49BE-9F95-420D-A81B-0287AA930709}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IIS.Atelier</RootNamespace>
@@ -124,7 +124,7 @@
       <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0\lib\net45\ICSSoft.STORMNET.UserDataTypes.dll</HintPath>
     </Reference>
     <ProjectReference Include="..\Objects\Atelier.Objects.csproj">
-      <Project>{2f5be1fe-3abd-414a-a09d-b199e50cc659}</Project>
+      <Project>{550128f7-a7b7-4623-9dcb-e964bc7da06b}</Project>
       <Name>Atelier.Objects</Name>
     </ProjectReference>
   </ItemGroup>

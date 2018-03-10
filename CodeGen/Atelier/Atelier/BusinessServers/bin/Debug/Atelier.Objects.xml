@@ -4,6 +4,106 @@
         <name>Atelier.Objects</name>
     </assembly>
     <members>
+        <member name="T:IIS.Atelier.Клиент">
+            <summary>
+            Клиент.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Клиент.Мастер">
+            <summary>
+            Клиент.
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Клиент.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Клиент.Views.КлиентE">
+            <summary>
+            "КлиентE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Клиент.Views.КлиентL">
+            <summary>
+            "КлиентL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Сотрудник">
+            <summary>
+            Сотрудник.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Сотрудник.Должность">
+            <summary>
+            Должность.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Сотрудник.Цех">
+            <summary>
+            Сотрудник.
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Сотрудник.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Сотрудник.Views.СотрудникE">
+            <summary>
+            "СотрудникE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Сотрудник.Views.СотрудникL">
+            <summary>
+            "СотрудникL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Одежда">
+            <summary>
+            Одежда.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Вид">
+            <summary>
+            Вид.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Материал">
+            <summary>
+            Материал.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Фасон">
+            <summary>
+            Фасон.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Покрой">
+            <summary>
+            Покрой.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Стиль">
+            <summary>
+            Стиль.
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Одежда.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Views.ОдеждаE">
+            <summary>
+            "ОдеждаE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Одежда.Views.ОдеждаL">
+            <summary>
+            "ОдеждаL" view.
+            </summary>
+        </member>
         <member name="T:IIS.Atelier.Заказ">
             <summary>
             Заказ.
@@ -64,56 +164,6 @@
             "ЗаказL" view.
             </summary>
         </member>
-        <member name="T:IIS.Atelier.Цех">
-            <summary>
-            Цех.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Цех.Номер">
-            <summary>
-            Номер.
-            </summary>
-        </member>
-        <member name="T:IIS.Atelier.Цех.Views">
-            <summary>
-            Class views container.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Цех.Views.ЦехE">
-            <summary>
-            "ЦехE" view.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Цех.Views.ЦехL">
-            <summary>
-            "ЦехL" view.
-            </summary>
-        </member>
-        <member name="T:IIS.Atelier.СостояниеЗаказа">
-            <summary>
-            Состояние заказа.
-            </summary>
-        </member>
-        <member name="F:IIS.Atelier.СостояниеЗаказа.Новый">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:IIS.Atelier.СостояниеЗаказа.Оплаченный">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:IIS.Atelier.СостояниеЗаказа.Отработанный">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:IIS.Atelier.СостояниеЗаказа.Отмененный">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:IIS.Atelier.Личность">
             <summary>
             Личность.
@@ -164,104 +214,54 @@
             "ЛичностьL" view.
             </summary>
         </member>
-        <member name="T:IIS.Atelier.Сотрудник">
+        <member name="T:IIS.Atelier.СостояниеЗаказа">
             <summary>
-            Сотрудник.
+            Состояние заказа.
             </summary>
         </member>
-        <member name="P:IIS.Atelier.Сотрудник.Должность">
+        <member name="F:IIS.Atelier.СостояниеЗаказа.Новый">
             <summary>
-            Должность.
+            
             </summary>
         </member>
-        <member name="P:IIS.Atelier.Сотрудник.Цех">
+        <member name="F:IIS.Atelier.СостояниеЗаказа.Оплаченный">
             <summary>
-            Сотрудник.
+            
             </summary>
         </member>
-        <member name="T:IIS.Atelier.Сотрудник.Views">
+        <member name="F:IIS.Atelier.СостояниеЗаказа.Отработанный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Atelier.СостояниеЗаказа.Отмененный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Цех">
+            <summary>
+            Цех.
+            </summary>
+        </member>
+        <member name="P:IIS.Atelier.Цех.Номер">
+            <summary>
+            Номер.
+            </summary>
+        </member>
+        <member name="T:IIS.Atelier.Цех.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.Atelier.Сотрудник.Views.СотрудникE">
+        <member name="P:IIS.Atelier.Цех.Views.ЦехE">
             <summary>
-            "СотрудникE" view.
+            "ЦехE" view.
             </summary>
         </member>
-        <member name="P:IIS.Atelier.Сотрудник.Views.СотрудникL">
+        <member name="P:IIS.Atelier.Цех.Views.ЦехL">
             <summary>
-            "СотрудникL" view.
-            </summary>
-        </member>
-        <member name="T:IIS.Atelier.Клиент">
-            <summary>
-            Клиент.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Клиент.Мастер">
-            <summary>
-            Клиент.
-            </summary>
-        </member>
-        <member name="T:IIS.Atelier.Клиент.Views">
-            <summary>
-            Class views container.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Клиент.Views.КлиентE">
-            <summary>
-            "КлиентE" view.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Клиент.Views.КлиентL">
-            <summary>
-            "КлиентL" view.
-            </summary>
-        </member>
-        <member name="T:IIS.Atelier.Одежда">
-            <summary>
-            Одежда.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Вид">
-            <summary>
-            Вид.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Материал">
-            <summary>
-            Материал.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Фасон">
-            <summary>
-            Фасон.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Покрой">
-            <summary>
-            Покрой.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Стиль">
-            <summary>
-            Стиль.
-            </summary>
-        </member>
-        <member name="T:IIS.Atelier.Одежда.Views">
-            <summary>
-            Class views container.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Views.ОдеждаE">
-            <summary>
-            "ОдеждаE" view.
-            </summary>
-        </member>
-        <member name="P:IIS.Atelier.Одежда.Views.ОдеждаL">
-            <summary>
-            "ОдеждаL" view.
+            "ЦехL" view.
             </summary>
         </member>
     </members>
