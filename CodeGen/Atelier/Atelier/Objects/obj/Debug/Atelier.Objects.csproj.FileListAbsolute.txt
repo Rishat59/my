@@ -70,6 +70,6 @@ D:\Git\my\CodeGen\Atelier\Atelier\Objects\bin\Debug\ko\Microsoft.Spatial.resourc
 D:\Git\my\CodeGen\Atelier\Atelier\Objects\bin\Debug\ru\Microsoft.Spatial.resources.dll
 D:\Git\my\CodeGen\Atelier\Atelier\Objects\bin\Debug\zh-Hans\Microsoft.Spatial.resources.dll
 D:\Git\my\CodeGen\Atelier\Atelier\Objects\bin\Debug\zh-Hant\Microsoft.Spatial.resources.dll
-D:\Git\my\CodeGen\Atelier\Atelier\Objects\obj\Debug\Atelier.Objects.csprojResolveAssemblyReference.cache
 D:\Git\my\CodeGen\Atelier\Atelier\Objects\obj\Debug\Atelier.Objects.dll
 D:\Git\my\CodeGen\Atelier\Atelier\Objects\obj\Debug\Atelier.Objects.pdb
+D:\Git\my\CodeGen\Atelier\Atelier\Objects\obj\Debug\Atelier.Objects.csprojResolveAssemblyReference.cache

@@ -226,14 +226,18 @@ namespace IIS.Atelier
         // *** End programmer edit section *** (Личность.ФИО CustomAttributes)
         [ICSSoft.STORMNET.NotStored()]
         [StrLen(255)]
-        [DataServiceExpression(typeof(ICSSoft.STORMNET.Business.MSSQLDataService), "@Фамилия@ + \' \' + @Имя@ + \' \' + @Отчество@")]
         public virtual string ФИО
         {
             get
             {
                 // *** Start programmer edit section *** (Личность.ФИО Get)
-
-                return null;
+                string ФИО = null;
+                if (Фамилия != null || Имя != null || Отчество != null)
+                {
+                    ФИО = Фамилия +' '+ Имя +' '+ Отчество;
+                }
+                 
+                return ФИО;
                 // *** End programmer edit section *** (Личность.ФИО Get)
             }
             set

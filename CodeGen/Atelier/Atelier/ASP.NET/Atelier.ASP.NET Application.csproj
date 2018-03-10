@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C56903AB-D92A-4EF6-9FDF-40301692B214}</ProjectGuid>
+    <ProjectGuid>{C46B704B-2BE4-4224-8868-84DFD0FF2A26}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -295,15 +295,23 @@
       <HintPath>System.Workflow.Runtime</HintPath>
     </Reference>
     <ProjectReference Include="..\Objects\Atelier.Objects.csproj">
-      <Project>{2f5be1fe-3abd-414a-a09d-b199e50cc659}</Project>
+      <Project>{550128f7-a7b7-4623-9dcb-e964bc7da06b}</Project>
       <Name>Atelier.Objects</Name>
     </ProjectReference>
     <ProjectReference Include="..\BusinessServers\Atelier.BusinessServers.csproj">
-      <Project>{bf05b667-6104-4a94-af43-182328f2a9df}</Project>
+      <Project>{5cae49be-9f95-420d-a81b-0287aa930709}</Project>
       <Name>Atelier.BusinessServers</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="forms\Lichnost\LichnostL.aspx" />
+    <Compile Include="forms\Lichnost\LichnostL.aspx.cs">
+      <DependentUpon>LichnostL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Lichnost\LichnostL.aspx.designer.cs">
+      <DependentUpon>LichnostL.aspx</DependentUpon>
+    </Compile>
     <Content Include="forms\Klient\KlientE.aspx" />
     <Compile Include="forms\Klient\KlientE.aspx.cs">
       <DependentUpon>KlientE.aspx</DependentUpon>
@@ -311,31 +319,6 @@
     </Compile>
     <Compile Include="forms\Klient\KlientE.aspx.designer.cs">
       <DependentUpon>KlientE.aspx</DependentUpon>
-    </Compile>
-    <Content Include="forms\Lichnost\LichnostE.aspx" />
-    <Compile Include="forms\Lichnost\LichnostE.aspx.cs">
-      <DependentUpon>LichnostE.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="forms\Lichnost\LichnostE.aspx.designer.cs">
-      <DependentUpon>LichnostE.aspx</DependentUpon>
-    </Compile>
-    <Content Include="forms\Zakaz\ZakazE.aspx" />
-    <Compile Include="forms\Zakaz\ZakazE.aspx.cs">
-      <DependentUpon>ZakazE.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="forms\Zakaz\ZakazE.aspx.designer.cs">
-      <DependentUpon>ZakazE.aspx</DependentUpon>
-    </Compile>
-    <Content Include="Web.sitemap" />
-    <Content Include="forms\Cex\CexE.aspx" />
-    <Compile Include="forms\Cex\CexE.aspx.cs">
-      <DependentUpon>CexE.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="forms\Cex\CexE.aspx.designer.cs">
-      <DependentUpon>CexE.aspx</DependentUpon>
     </Compile>
     <Content Include="forms\Zakaz\ZakazL.aspx" />
     <Compile Include="forms\Zakaz\ZakazL.aspx.cs">
@@ -345,6 +328,7 @@
     <Compile Include="forms\Zakaz\ZakazL.aspx.designer.cs">
       <DependentUpon>ZakazL.aspx</DependentUpon>
     </Compile>
+    <Content Include="Web.sitemap" />
     <Content Include="forms\Sotrudnik\SotrudnikL.aspx" />
     <Compile Include="forms\Sotrudnik\SotrudnikL.aspx.cs">
       <DependentUpon>SotrudnikL.aspx</DependentUpon>
@@ -353,29 +337,13 @@
     <Compile Include="forms\Sotrudnik\SotrudnikL.aspx.designer.cs">
       <DependentUpon>SotrudnikL.aspx</DependentUpon>
     </Compile>
-    <Content Include="forms\Odezhda\OdezhdaL.aspx" />
-    <Compile Include="forms\Odezhda\OdezhdaL.aspx.cs">
-      <DependentUpon>OdezhdaL.aspx</DependentUpon>
+    <Content Include="forms\Cex\CexE.aspx" />
+    <Compile Include="forms\Cex\CexE.aspx.cs">
+      <DependentUpon>CexE.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="forms\Odezhda\OdezhdaL.aspx.designer.cs">
-      <DependentUpon>OdezhdaL.aspx</DependentUpon>
-    </Compile>
-    <Content Include="forms\Odezhda\OdezhdaE.aspx" />
-    <Compile Include="forms\Odezhda\OdezhdaE.aspx.cs">
-      <DependentUpon>OdezhdaE.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="forms\Odezhda\OdezhdaE.aspx.designer.cs">
-      <DependentUpon>OdezhdaE.aspx</DependentUpon>
-    </Compile>
-    <Content Include="forms\Cex\CexL.aspx" />
-    <Compile Include="forms\Cex\CexL.aspx.cs">
-      <DependentUpon>CexL.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="forms\Cex\CexL.aspx.designer.cs">
-      <DependentUpon>CexL.aspx</DependentUpon>
+    <Compile Include="forms\Cex\CexE.aspx.designer.cs">
+      <DependentUpon>CexE.aspx</DependentUpon>
     </Compile>
     <Content Include="forms\Klient\KlientL.aspx" />
     <Compile Include="forms\Klient\KlientL.aspx.cs">
@@ -393,13 +361,45 @@
     <Compile Include="forms\Sotrudnik\SotrudnikE.aspx.designer.cs">
       <DependentUpon>SotrudnikE.aspx</DependentUpon>
     </Compile>
-    <Content Include="forms\Lichnost\LichnostL.aspx" />
-    <Compile Include="forms\Lichnost\LichnostL.aspx.cs">
-      <DependentUpon>LichnostL.aspx</DependentUpon>
+    <Content Include="forms\Odezhda\OdezhdaE.aspx" />
+    <Compile Include="forms\Odezhda\OdezhdaE.aspx.cs">
+      <DependentUpon>OdezhdaE.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="forms\Lichnost\LichnostL.aspx.designer.cs">
-      <DependentUpon>LichnostL.aspx</DependentUpon>
+    <Compile Include="forms\Odezhda\OdezhdaE.aspx.designer.cs">
+      <DependentUpon>OdezhdaE.aspx</DependentUpon>
+    </Compile>
+    <Content Include="forms\Zakaz\ZakazE.aspx" />
+    <Compile Include="forms\Zakaz\ZakazE.aspx.cs">
+      <DependentUpon>ZakazE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Zakaz\ZakazE.aspx.designer.cs">
+      <DependentUpon>ZakazE.aspx</DependentUpon>
+    </Compile>
+    <Content Include="forms\Odezhda\OdezhdaL.aspx" />
+    <Compile Include="forms\Odezhda\OdezhdaL.aspx.cs">
+      <DependentUpon>OdezhdaL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Odezhda\OdezhdaL.aspx.designer.cs">
+      <DependentUpon>OdezhdaL.aspx</DependentUpon>
+    </Compile>
+    <Content Include="forms\Cex\CexL.aspx" />
+    <Compile Include="forms\Cex\CexL.aspx.cs">
+      <DependentUpon>CexL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Cex\CexL.aspx.designer.cs">
+      <DependentUpon>CexL.aspx</DependentUpon>
+    </Compile>
+    <Content Include="forms\Lichnost\LichnostE.aspx" />
+    <Compile Include="forms\Lichnost\LichnostE.aspx.cs">
+      <DependentUpon>LichnostE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Lichnost\LichnostE.aspx.designer.cs">
+      <DependentUpon>LichnostE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="shared\jstreeThemes\apple\bg.jpg" />
