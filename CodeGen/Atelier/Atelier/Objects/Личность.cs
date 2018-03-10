@@ -232,7 +232,7 @@ namespace IIS.Atelier
             {
                 // *** Start programmer edit section *** (Личность.ФИО Get)
                 string ФИО = null;
-                if (Фамилия != null && Имя != null && Отчество != null)
+                if (Фамилия != null || Имя != null || Отчество != null)
                 {
                     ФИО = Фамилия +' '+ Имя +' '+ Отчество;
                 }
